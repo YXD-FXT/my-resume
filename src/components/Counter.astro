@@ -1,0 +1,17 @@
+---
+import type { log } from "astro/dist/core/logger/core";
+export interface Props {
+    count: number;
+}
+
+const { count } = Astro.props;
+
+function handleClick () {
+    console.log('杨晓东');
+}
+---
+
+<div>yangxiaodong {count}
+
+    <button onClick = { handleClick }>click</button>
+</div>
