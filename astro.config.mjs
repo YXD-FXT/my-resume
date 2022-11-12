@@ -5,6 +5,6 @@ import solidJs from "@astrojs/solid-js";
 
 // https://astro.build/config
 export default defineConfig({
-  base: "yxd-resume",
+  base: "my-resume",
   integrations: [solidJs()]
 });
